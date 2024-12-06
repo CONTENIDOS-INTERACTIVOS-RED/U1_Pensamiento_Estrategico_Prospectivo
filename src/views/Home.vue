@@ -20,11 +20,13 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
+              p.home-main-title Pensamiento Estratégico y Prospectivo {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 Desde el inicio de las organizaciones humanas, planificar para el futuro ha sido clave para enfrentar los desafíos del entorno. El pensamiento estratégico y prospectivo se presenta como una herramienta esencial para anticipar escenarios, gestionar riesgos y aprovechar oportunidades en un mundo cambiante. En esta primera unidad, se explorará cómo las organizaciones pueden desarrollar una visión a largo plazo, adaptarse a la incertidumbre y construir estrategias sostenibles que promuevan su competitividad y resiliencia..
+                br
+                br
+                |#[b ¡Prepárate para liderar con visión y estrategias que trascienden  el cambio!]
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -145,13 +147,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    transition: all 0.4s ease-in-out
+    background-color: $color-btn-fondo !important
+    color: $color-btn-texto !important
   .icon
-    transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    transition: all 0.4s ease-in-out
+    background-color: darken($color-btn-fondo, 20%) !important
   &:hover
     .icon
-      transform: scale(1.06)
+      transform: scale(1.05)
+      cursor: pointer
 </style>

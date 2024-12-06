@@ -1,85 +1,53 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'3. Habilidades y competencias del pensamiento estratégico '")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #t_3_1.titulo-segundo
-      h2 3.1 Carrusel
     .row.justify-content-center.mb-5
-      .col-11.col-md-4.col-xl-5.pe-xl-8
-        figure.mb-4.mb-md-0
-          img(src='@/assets/componentes/test-img-carousel.png', alt='Texto que describa la imagen')
-      .col-11.col-md-8.col-xl-7
-        SlyderF(columnas="col-12 col-lg-6")
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 54 de 1924
-                p.text-center Permitió el matrimonio civil entre católicos que declaran  haberse separado de la Iglesia.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
+      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.png', alt='')
+      .col-lg-8
+        p.mb-0 Este tema se centra en las capacidades que permiten a los directivos  y equipos anticipar, adaptarse y prosperar en situaciones desafiantes.
+          br
+          br
+          |Se exponen cinco habilidades que componen el pensamiento estratégico: la visión a largo plazo, la capacidad de adaptación y flexibilidad, la creatividad y resolución de problemas, las habilidades de análisis y síntesis, y la toma de riesgos informados. Cada una de estas competencias son importantes y al mismo tiempo interactúan de manera sinérgica para fortalecer la capacidad de un individuo o equipo para enfrentar los retos contemporáneos. Conozcamos cada una de ellas:
+    .mn.p-5(style="background-color: #E3F3F4")
+      SlyderA(tipo='b')
+        .row.bg-white.p-5
+          .col-md-6.mb-4.mb-md-0
+            h4 Visión a largo plazo
+            p La visión a largo plazo, se refiere a la capacidad de establecer metas y objetivos que trascienden el corto plazo, proporcionando dirección y propósito a las acciones estratégicas (Bas Amorós, 2013). Esta habilidad permite a los individuos y organizaciones, anticipar cambios en el entorno y adaptarse proactivamente. Una visión clara no solo motiva al equipo, sino que también ayuda a encaminar los esfuerzos hacia un futuro deseado, facilitando la toma de decisiones estratégicas que están en consonancia con los objetivos generales (Bas Amorós, 2013).
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/21.png', alt='Texto que describa la imagen')
+        .row.bg-white.p-5
+          .col-md-6.mb-4.mb-md-0
+            h4 Capacidad de adaptación y flexibilidad
+            p La capacidad de adaptación y flexibilidad, juega un papel protagónico en el pensamiento estratégico pues esta habilidad permite a las organizaciones responder eficazmente a nuevas circunstancias, ajustando sus estrategias y tácticas, según sea necesario (Bas Amorós, 2013). La flexibilidad se traduce en la disposición a reconsiderar enfoques y adoptar nuevas ideas, lo cual es fundamental para enfrentar desafíos imprevistos y aprovechar oportunidades emergentes (Bas Amorós, 2013).
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/22.png', alt='Texto que describa la imagen')
+        .row.bg-white.p-5
+          .col-md-6.mb-4.mb-md-0
+            h4 Creatividad y resolución de problemas
+            p La creatividad es la capacidad de generar ideas innovadoras y originales que pueden ser aplicadas para resolver problemas complejos (Bas Amorós, 2013). En el contexto del pensamiento estratégico, la creatividad se convierte en una herramienta vital para abordar desafíos de manera efectiva. La resolución de problemas, por su parte, implica un proceso estructurado de identificación, análisis y formulación de soluciones (Bas Amorós, 2013); estas habilidades facilitan a las organizaciones navegar por diversos contextos, encontrando respuestas eficaces y sostenibles.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/23.png', alt='Texto que describa la imagen')
+        .row.bg-white.p-5
+          .col-md-6.mb-4.mb-md-0
+            h4 Habilidades de análisis y síntesis
+            p Las habilidades de análisis y síntesis, representan una competencia sostenible para el pensamiento estratégico, pues estas permiten descomponer información compleja en partes manejables y luego combinar esos elementos en un todo coherente. El análisis implica evaluar datos y situaciones para comprender las dinámicas involucradas, mientras que la síntesis se refiere a la capacidad de integrar diversos elementos de información para formular conclusiones y recomendaciones estratégicas (Bas Amorós, 2013).
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/24.png', alt='Texto que describa la imagen')
+        .row.bg-white.p-5
+          .col-md-6.mb-4.mb-md-0
+            h4 La toma de riesgos informados
+            p La toma de riesgos informados es la habilidad de evaluar oportunidades y decidir actuar a pesar de la incertidumbre inherente (Bas Amorós, 2013). Esta competencia implica un análisis cuidadoso de las posibles consecuencias y beneficios de una decisión, permitiendo a las organizaciones adoptar enfoques estratégicos que pueden llevar a resultados positivos significativos. Al fomentar una cultura de toma de riesgos informados, las organizaciones pueden innovar y adaptarse más rápidamente a las condiciones cambiantes del mercado (Bas Amorós, 2013).
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/25.png', alt='Texto que describa la imagen')
 
-    #t_3_2.titulo-segundo
-      h2 3.2 Tablas
-
-    .row
-      .col-xl-9
-        .tabla-a.mb-5
-          table
-            caption Leyenda de la tabla
-            thead
-              tr
-                th Ventajas
-                th Desafios
-            tbody
-              tr
-                td <strong>Flexibilidad de tiempo y lugar:</strong>Los estudiantes pueden acceder a los cursos desde cualquier lugar y en el momento que mejor se ajuste a su agenda.
-                td <strong>Autogestión   del tiempo:</strong>Requiere que los estudiantes sean disciplinados y tengan la capacidad de organizar su tiempo de manera efectiva.
-              tr
-                td <strong>Acceso global: </strong>Cualquier persona con conexión a internet puede acceder a una amplia gama de programas y cursos, sin importar su ubicación geográfica.
-                td <strong>Autogestión del tiempo: </strong>Falta de interacción cara a cara: La ausencia de contacto físico puede disminuir la sensación de comunidad y la interacción espontánea con compañeros e instructores.
-              tr
-                td <strong>Aprendizaje a ritmo propio: </strong>Los estudiantes pueden avanzar a su propio ritmo, revisando el material tantas veces como sea necesario.
-                td <strong>Requiere mayor motivación: </strong>La autonomía que ofrece el aprendizaje en línea también exige que los estudiantes mantengan su motivación sin la estructura tradicional de clases presenciales.
-              tr
-                td <strong>Variedad de recursos digitales: </strong>Los estudiantes tienen acceso a videos, documentos, foros, evaluaciones automatizadas y otros recursos interactivos que enriquecen la experiencia de aprendizaje.
-                td <strong></strong>Distracciones en el entorno personal: Al estudiar desde casa o en otros entornos no tradicionales, los estudiantes pueden enfrentarse a más distracciones que en un aula presencial.
-              tr
-                td <strong>Menor costo: </strong>El aprendizaje en línea suele ser más asequible, ya que elimina los costos de transporte, alojamiento y materiales impresos.
-                td <strong>Dependencia de la tecnología: </strong>Problemas técnicos, como una conexión a internet inestable o falta de acceso a dispositivos adecuados, pueden interrumpir el proceso de aprendizaje.
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+    
 </template>
 
 <script>

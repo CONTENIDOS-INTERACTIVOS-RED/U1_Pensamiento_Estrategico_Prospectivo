@@ -1,162 +1,84 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'1. Introducción al pensamiento estratégico '")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-    #t_1_1.titulo-segundo
-      div.d-flex
-        span.me-3 1.1  
-        h2 Título de segundo
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        p Desde los inicios de la humanidad, las reglas han sido un elemento fundamental para el desarrollo de las sociedades. El Derecho, en este contexto, se presenta como una herramienta indispensable para el buen funcionamiento de la convivencia. En esta primera unidad, se profundizará en el concepto de Derecho, su propósito y origen, así como en el proceso de creación de normas que regulan nuestras actividades diarias, las relaciones entre individuos y el Estado, y las normas que operan en el ámbito global.
-      .col-md-6.col-lg-5
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure.mt-4.mt-lg-0
-          img(src='@/assets/componentes/banner-img-1.png', alt='Texto que describa la imagen')
-    #t_1_2.titulo-segundo.color-secundario
-      h2 1.2  Acordeón
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        AcordionA(tipo="b")
-          .row(titulo="Titulo item 1")
-            .col
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/4.svg', alt='')
+      .col-lg-7
+        p.mb-4 En el contexto actual, caracterizado por su dinamismo y constante evolución, el pensamiento estratégico se ha consolidado como una habilidad fundamental que deben poseer los profesionales de todos los sectores.
+        .bg-color-1.p-4.mb-4(data-aos="fade-left" style="background-color: #DAF6FA")
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/5.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Este enfoque va más allá de la mera planificación; implica una visión a largo plazo, la capacidad de anticipar cambios en el entorno y la habilidad para tomar decisiones informadas que permitan a organizaciones e individuos adaptarse exitosamente a los desafíos futuros.
+        p.mb-0 Esto representa una necesidad, tanto para quienes lideran las empresas, como para cualquier profesional que busque destacar en su campo.
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.1 Historia y evolución de la planeación estratégica 
+    .p-4(style="background-color: #FFFBE8 ").mb-4
+      .row.justify-content-center.align-items-center
+            .col-lg-7
+              p.mb-4(data-aos="fade-right") La planificación estratégica ha evolucionado desde sus raíces en la gestión mecanicista del taylorismo hasta convertirse en una disciplina integral que responde a las demandas de mercados competitivos y entornos dinámicos. El PDF Historia y evolución de la planeación estratégica , analiza cómo conceptos como las teorías X, Y y Z, así como el desarrollo organizacional, han transformado la planeación empresarial, integrando perspectivas centradas en los empleados y la cultura corporativa. Estudiar esta evolución es clave para comprender el surgimiento del pensamiento estratégico y su relevancia en la construcción de organizaciones sostenibles y adaptables.
 
-          div(titulo="Titulo item 2")
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .col-md-6.col-lg-5.col-xl-4.mx-xl-auto
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Historia y evolución de la planeación estratégica.
+
+            .col-lg-5
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/temas/6.png', alt='')
+    p.mb-4 La siguiente figura presenta un resumen de la historia y evolución de la planeación estratégica hacia el pensamiento estratégico.
+    .row.justify-content-center.mb-5
+      .col-lg-11
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 1.
+          span Historia y evolución de la planeación estratégica hacia el pensamiento estratégico
+        img(src='@/assets/curso/temas/7.svg', alt='')
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.2 Concepto de pensamiento estratégico     
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3
+        p.mb-0 El pensamiento estratégico, es una habilidad crítica que permite a los individuos y organizaciones anticipar, analizar y responder proactivamente, a los desafíos y oportunidades del entorno. Esto no solo implica la identificación de metas y objetivos, sino también la evaluación de los recursos y capacidades disponibles, así como el análisis de las tendencias y dinámicas del entorno.
+          br
+          br
+          | Según Chávez Martínez (2003), el pensamiento estratégico puede definirse como un enfoque mental que busca comprender y gestionar la complejidad de los entornos organizacionales, mediante la identificación de patrones, tendencias y relaciones causales. Este enfoque permite a los líderes y gerentes, tomar decisiones informadas y en concordancia con la misión y visión de la organización.
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/8.png', alt='')
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
         figure
-          img(src='@/assets/componentes/banner-img-2.png', alt='Texto que describa la imagen')
-    #t_1_3.titulo-segundo.color-secundario.pb-5
-      h2 1.3  Slider
-    .row.position-relative.mb-5
-      img.bg-img-1(src='../../assets/componentes/background-test.svg', alt='Texto que describa la imagen')
-      SlyderA(tipo="b").bg-white
-        .row.p-4.p-md-5
-          .col-md-6.col-lg-7.mb-4.mb-md-0
-            p.text-bold Coercibilidad
-            p El derecho puede imponerse por la fuerza si es necesario. Cuando una persona incumple una norma jurídica, puede ser sancionada mediante multas, penas de prisión o la confiscación de bienes. Esta coercibilidad distingue al derecho de otros sistemas normativos que no cuentan con mecanismos de imposición obligatoria.
-        
-          .col-md-6.col-lg-5
-            figure
-              img(src='@/assets/componentes/banner-img-3.png', alt='Texto que describa la imagen')
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-    #t_1_4.titulo-segundo.color-secundario.pt-5
-      h2 1.4  Pestañas
-    .row.mb-5
-      TabsC.color-primario
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Jerarquía normativa")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Sentido amplio de la norma")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-    #t_1_5.titulo-segundo.color-secundario.pt-5
-      h2 1.5  Infografia interactiva
-      
-    .row.mb-5.justify-content-center.img-infografica.p-md-5
-      .col-12.col-md-9
-        ImagenInfografica.color-secundario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/componentes/test-img-infogr.svg', alt='Texto que describa la imagen')
-
-          .tarjeta.color-acento-botones.p-3(x="9%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="91%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="91%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="9%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    
-    #t_1_6.titulo-segundo
-      div.d-flex
-        span.me-3 1.6  
-        h2 Linea de tiempo D
-
-    LineaTiempoD.color-secundario.mb-5
-      p(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="3" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-    
-    #t_1_7.titulo-segundo
-      div.d-flex
-        span.me-3 1.7
-        h2 Tarjeta de audio
-    
-      TarjetaAudio.color-primario.bg-white.mb-5(
-        texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
-        tiempo
-        :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
-
-    .bg-full-width.border-top-9-azul
-      .px-4.p-md-5
-        h2 Material complementario
-        .row
-          .col-12.col-md-6.col-lg-8
-            p.text-small
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
-          .col-12.col-md-6.col-lg-3
-            figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/9.svg', alt='Texto que describa la imagen')
+      .tarjeta.p-3(x="26.5%" y="45%" numero="+" style="background-color: #C8F1F8")
+        .h5.mb-2 Colaboración
+        p Reconoce la importancia de trabajar en equipo y de involucrar a diferentes partes interesadas en el proceso de toma de decisiones.
+      .tarjeta.p-3(x="34.6%" y="84.5%" numero="+" style="background-color: #C8F1F8")
+        .h5.mb-2 Creatividad e innovación
+        p Fomenta la generación de ideas nuevas y soluciones creativas.
+      .tarjeta.p-3(x="65.3%" y="86%" numero="+" style="background-color: #C8F1F8")
+        .h5.mb-2 Flexibilidad
+        p Capacidad de ajustar planes y acciones en respuesta a nuevas informaciones y situaciones diversas.
+      .tarjeta.p-3(x="73.5%" y="45%" numero="+" style="background-color: #C8F1F8")
+        .h5.mb-2 Análisis del contexto
+        p Comprensión del entorno, tanto interno como externo, incluyendo factores económicos, sociales, tecnológicos y competitivos.
+      .tarjeta.p-3(x="49.9%" y="21%" numero="+" style="background-color: #C8F1F8")
+        .h5.mb-2 Visión
+        p Capacidad de prever y planificar para el futuro, considerando escenarios posibles y la adaptación a cambios inesperados.
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.3 Importancia del pensamiento estratégico
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3
+        p.mb-4 El pensamiento estratégico representa una habilidad indispensable para organizaciones y profesionales que buscan responder a los retos y demandas de un entorno dinámico y competitivo. 
+          br
+          br
+          |En la actualidad, es importante planificar acciones, y prever tendencias, para poder diseñar estrategias adaptativas que posicionen a la organización, en una ventaja competitiva sostenible.
+        .p-4(style="background-color: #FFF4C0")
+          p.mb-0 Este tipo de pensamiento facilita una comprensión profunda de los factores que influyen en el entorno empresarial, como la globalización, los avances tecnológicos y los cambios en las expectativas de los consumidores. 
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/10.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.png', alt='')
+      .col-lg-7
+        p.mb-0 El pensamiento estratégico conlleva a las organizaciones, tanto a sus directivos como a sus equipos de trabajo, a desarrollar una visión a largo plazo, a evaluar posibles escenarios y a tomar decisiones basadas con la misión y visión organizacional (Chávez Martínez, 2003). Esta habilidad es también clave para fomentar la innovación, alentar la colaboración y coordinar esfuerzos para alcanzar metas comunes. Por lo tanto, la aplicación de un pensamiento estratégico, fortalece la adaptabilidad organizacional y permite responder efectivamente ante circunstancias inciertas.
 </template>
 
 <script>

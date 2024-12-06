@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Componente Formativo ',
     descripcionCurso:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -17,7 +16,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Introducción al pensamiento estratégico',
   },
   menuPrincipal: {
     menu: [
@@ -31,44 +30,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Introducción al pensamiento estratégico ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Historia y evolución de la planeación estratégica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Concepto de pensamiento estratégico',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Slider',
+            titulo: 'Importancia del pensamiento estratégico',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -76,38 +57,33 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo:
+          'Diferencias entre planificación tradicional y pensamiento estratégico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Diferencias conceptuales',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Diferencias claves',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo: 'Ventajas y desventajas',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Listado',
+            titulo: 'Casos y ejemplos',
             hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,22 +91,16 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Habilidades y competencias del pensamiento estratégico ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Análisis de la toma de decisiones estratégicas en diferentes áreas profesionales',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'sintesis',
