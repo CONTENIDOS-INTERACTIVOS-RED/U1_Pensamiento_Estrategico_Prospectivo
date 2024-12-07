@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bg-fondo-1 
     p.mb-4 Para poder comprender el tema “Diferencias entre planificación tradicional y pensamiento estratégico”, se hace necesario profundizar en varios aspectos importantes. 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 Diferencias conceptuales
+      h2 #[span 2.1] Diferencias conceptuales
     p.mb-4 Primero, conozcamos cuáles son las diferencias conceptuales de estos dos términos:
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-4(data-aos="zoom-in-up")
@@ -28,7 +28,7 @@
             .col-lg
               p.mb-0 Los pensadores estratégicos evalúan las variables de su entorno y están en constante búsqueda de oportunidades, para innovar y obtener ventaja competitiva. 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Diferencias claves
+      h2 #[span 2.2] Diferencias claves
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 Ahora, se pueden analizar las características específicas que diferencian ambos conceptos:
@@ -43,7 +43,7 @@
             p.mb-0 La planificación tradicional sigue un enfoque secuencial, mientras que el pensamiento estratégico utiliza análisis de escenarios y anticipación.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/15.svg', alt='')
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.3 Ventajas y desventajas
+      h2 #[span 2.3] Ventajas y desventajas
     p.mb-4 Es importante reconocer que cada enfoque tiene sus limitaciones, en esta parte expondremos las principales:
     TabsC.color-primario.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Planificación tradicional" :icon="require('@/assets/curso/temas/icon2.svg')" style="background-color: #F3F3F3")
@@ -103,7 +103,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/17.png', alt='')
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.4 Casos y ejemplos
+      h2 #[span 2.4] Casos y ejemplos
     p.mb-4 Estudiemos primero los casos nacionales:
     .row.justify-content-center.mb-4
       .col-lg-7.mb-lg-0.mb-3

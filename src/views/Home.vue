@@ -20,7 +20,7 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Pensamiento Estratégico y Prospectivo {{ `${globalData.numeroUnidad}` }}
+              p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
               p.descripcion.mb-4 Desde el inicio de las organizaciones humanas, planificar para el futuro ha sido clave para enfrentar los desafíos del entorno. El pensamiento estratégico y prospectivo se presenta como una herramienta esencial para anticipar escenarios, gestionar riesgos y aprovechar oportunidades en un mundo cambiante. En esta primera unidad, se explorará cómo las organizaciones pueden desarrollar una visión a largo plazo, adaptarse a la incertidumbre y construir estrategias sostenibles que promuevan su competitividad y resiliencia..
                 br
@@ -62,6 +62,7 @@ export default {
 
 <style lang="sass">
 .curso-container
+  background-color: #FEF2EC
   .container
     @media (min-width: 1400px)
       max-width: 1378px
@@ -75,7 +76,7 @@ export default {
     font-weight: bold
     color: $color-institucional
   .home-content
-    background-color: white
+    background-color: #FEF2EC
   .info-section
     position: relative
     min-height: 100%

@@ -140,109 +140,145 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: (ed.). Editorial Miguel Ángel Porrúa.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/75157',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Perilla Maluche, R. B. Orjuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva francesa: (1 ed.). Sello Editorial Universidad del Tolima.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/228417',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: (ed.). Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/59107',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: (ed.). Ediciones y Gráficos Eón.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/120296',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?: (1 ed.). LID Editorial España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/271461',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): (ed.). Plaza y Valdés (España).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/42001',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones: (1 ed.). Fondo Editorial CEIPA.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/217714',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Chávez Martínez, G. (2003). El pensamiento del estratega: (ed.). Plaza y Valdés (México).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/75568',
+    },
+    {
+      referencia:
+        'López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: (ed.). Editorial Universo Sur.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/71774',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Flexibilidad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'capacidad de ajustar las estrategias y planes en función de los cambios en el entorno o la organización.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Prospectiva',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'técnica que se utiliza para prever y planificar escenarios futuros basados en el análisis de tendencias y eventos actuales.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Colaboración interdepartamental',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'cooperación entre diferentes áreas o departamentos dentro de una organización para mejorar la toma de decisiones estratégicas.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Visión sistémica',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'capacidad de entender cómo las diferentes partes de un sistema o situación interactúan entre sí para influir en los resultados globales.',
     },
     {
-      termino: 'Moda',
+      termino: 'Análisis FODA',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'herramienta que evalúa Fortalezas, Oportunidades, Debilidades y Amenazas en un contexto estratégico.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Análisis crítico',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'proceso de evaluación objetiva de información para fundamentar decisiones estratégicas.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Adaptabilidad',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'capacidad de ajustar estrategias y acciones en respuesta a cambios en el entorno o condiciones internas.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Planificación lineal',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'método tradicional de planificación que sigue un enfoque secuencial y rígido, basado en supuestos de estabilidad.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Innovación disruptiva',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'introducción de nuevas ideas, productos o servicios que cambian de manera significativa las reglas del mercado o sector.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Ética en la estrategia',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'consideración de los efectos sociales y ambientales de las decisiones estratégicas para garantizar un impacto sostenible.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Competencias estratégicas',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'habilidades que permiten evaluar, planificar y ejecutar acciones que alinean los objetivos a largo plazo con la realidad actual.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Visión a largo plazo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'habilidad para considerar los impactos futuros de las decisiones presentes y planificar en consecuencia.',
+    },
+    {
+      termino: 'Toma de decisiones',
+      significado:
+        'proceso mediante el cual se elige una opción entre varias posibles para resolver un problema o aprovechar una oportunidad.',
+    },
+    {
+      termino: 'Proactividad',
+      significado:
+        'acción de anticiparse a los problemas y oportunidades para evitar impactos negativos o aprovechar ventajas.',
+    },
+    {
+      termino: 'Liderazgo estratégico',
+      significado:
+        'capacidad de guiar a un equipo u organización hacia el logro de metas a largo plazo mediante la visión y adaptación.',
+    },
+    {
+      termino: 'Innovación',
+      significado:
+        'proceso de introducir nuevas ideas o métodos que mejoren productos, servicios o procesos estratégicos.',
+    },
+    {
+      termino: 'Habilidades analíticas',
+      significado:
+        'competencias necesarias para descomponer y evaluar situaciones complejas, facilitando la toma de decisiones.',
+    },
+    {
+      termino: 'Resiliencia',
+      significado:
+        'capacidad de adaptarse y recuperarse ante situaciones adversas o cambios imprevistos en el entorno.',
+    },
+    {
+      termino: 'Anticipación',
+      significado:
+        'habilidad para prever y preparar para posibles escenarios futuros antes de que sucedan.',
     },
   ],
   complementario: [

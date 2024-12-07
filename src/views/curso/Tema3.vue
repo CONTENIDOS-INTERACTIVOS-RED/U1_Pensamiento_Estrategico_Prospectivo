@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'3. Habilidades y competencias del pensamiento estratégico '")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.png', alt='')
       .col-lg-8

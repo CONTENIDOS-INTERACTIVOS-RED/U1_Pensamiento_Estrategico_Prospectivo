@@ -14,13 +14,13 @@
               p.mb-0 Este enfoque va más allá de la mera planificación; implica una visión a largo plazo, la capacidad de anticipar cambios en el entorno y la habilidad para tomar decisiones informadas que permitan a organizaciones e individuos adaptarse exitosamente a los desafíos futuros.
         p.mb-0 Esto representa una necesidad, tanto para quienes lideran las empresas, como para cualquier profesional que busque destacar en su campo.
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Historia y evolución de la planeación estratégica 
+      h2 #[span 1.1] Historia y evolución de la planeación estratégica 
     .p-4(style="background-color: #FFFBE8 ").mb-4
       .row.justify-content-center.align-items-center
             .col-lg-7
               p.mb-4(data-aos="fade-right") La planificación estratégica ha evolucionado desde sus raíces en la gestión mecanicista del taylorismo hasta convertirse en una disciplina integral que responde a las demandas de mercados competitivos y entornos dinámicos. El PDF Historia y evolución de la planeación estratégica , analiza cómo conceptos como las teorías X, Y y Z, así como el desarrollo organizacional, han transformado la planeación empresarial, integrando perspectivas centradas en los empleados y la cultura corporativa. Estudiar esta evolución es clave para comprender el surgimiento del pensamiento estratégico y su relevancia en la construcción de organizaciones sostenibles y adaptables.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Estrategia.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -37,7 +37,7 @@
           span Historia y evolución de la planeación estratégica hacia el pensamiento estratégico
         img(src='@/assets/curso/temas/7.svg', alt='')
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2 Concepto de pensamiento estratégico     
+      h2 #[span 1.2] Concepto de pensamiento estratégico     
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-0 El pensamiento estratégico, es una habilidad crítica que permite a los individuos y organizaciones anticipar, analizar y responder proactivamente, a los desafíos y oportunidades del entorno. Esto no solo implica la identificación de metas y objetivos, sino también la evaluación de los recursos y capacidades disponibles, así como el análisis de las tendencias y dinámicas del entorno.
@@ -65,7 +65,7 @@
         .h5.mb-2 Visión
         p Capacidad de prever y planificar para el futuro, considerando escenarios posibles y la adaptación a cambios inesperados.
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3 Importancia del pensamiento estratégico
+      h2 #[span 1.3] Importancia del pensamiento estratégico
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4 El pensamiento estratégico representa una habilidad indispensable para organizaciones y profesionales que buscan responder a los retos y demandas de un entorno dinámico y competitivo. 

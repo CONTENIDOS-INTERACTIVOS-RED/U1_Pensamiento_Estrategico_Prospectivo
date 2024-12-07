@@ -2,9 +2,12 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
-    figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+    p.mb-4.mb-md-5 La unidad 1, Introducción al pensamiento estratégico, ofrece los fundamentos conceptuales para comprender esta habilidad esencial en la toma de decisiones y la anticipación a escenarios futuros. Se exploran la evolución histórica de la planificación estratégica, el concepto de pensamiento estratégico y su relevancia en contextos dinámicos. Esta unidad proporciona una base integral que fomenta la innovación, el liderazgo y la capacidad de adaptación frente a desafíos complejos, asegurando que los estudiantes desarrollen competencias clave para su aplicación en diversos contextos profesionales.
+
+    .row.justify-content-center
+      .col-lg-12.mb-5
+        figure.bg-color-sintesis.p-5.brounded
+          img(src='@/assets/curso/sintesis.svg', alt='Texto que describa la imagen')
     
 
 </template>
