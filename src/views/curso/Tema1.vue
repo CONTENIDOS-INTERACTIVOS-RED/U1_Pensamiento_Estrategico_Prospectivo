@@ -18,7 +18,7 @@
     .p-4(style="background-color: #FFFBE8 ").mb-4
       .row.justify-content-center.align-items-center
             .col-lg-7
-              p.mb-4(data-aos="fade-right") La planificación estratégica ha evolucionado desde sus raíces en la gestión mecanicista del taylorismo hasta convertirse en una disciplina integral que responde a las demandas de mercados competitivos y entornos dinámicos. El PDF Historia y evolución de la planeación estratégica , analiza cómo conceptos como las teorías X, Y y Z, así como el desarrollo organizacional, han transformado la planeación empresarial, integrando perspectivas centradas en los empleados y la cultura corporativa. Estudiar esta evolución es clave para comprender el surgimiento del pensamiento estratégico y su relevancia en la construcción de organizaciones sostenibles y adaptables.
+              p.mb-4(data-aos="fade-right") La planificación estratégica ha evolucionado desde sus raíces en la gestión mecanicista del taylorismo hasta convertirse en una disciplina integral que responde a las demandas de mercados competitivos y entornos dinámicos. El PDF Historia y evolución de la planeación estratégica, analiza cómo conceptos como las teorías X, Y y Z, así como el desarrollo organizacional, han transformado la planeación empresarial, integrando perspectivas centradas en los empleados y la cultura corporativa. Estudiar esta evolución es clave para comprender el surgimiento del pensamiento estratégico y su relevancia en la construcción de organizaciones sostenibles y adaptables.
 
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Estrategia.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -64,6 +64,21 @@
       .tarjeta.p-3(x="49.9%" y="21%" numero="+" style="background-color: #C8F1F8")
         .h5.mb-2 Visión
         p Capacidad de prever y planificar para el futuro, considerando escenarios posibles y la adaptación a cambios inesperados.
+
+
+
+    //- .bg-full-width.bg-color-5.mb-lg-5
+    //-   .px-4.p-md-5
+
+    //-     p.mb-4(data-aos="fade-right") Para complementar, el video Pensamiento estratégico ofrece una perspectiva visual sobre las características y aplicaciones de este concepto en el ámbito profesional, lo que facilita su comprensión.
+
+    //-     a.anexo.mb-4.bg-white.w-fit(href="https://www.youtube.com/watch?v=ahyV5boL3Ow" target="_blank")(data-aos="flip-up")
+    //-       .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+    //-         img(src="@/assets/componentes/youtube-icon.svg")
+    //-       .anexo__texto
+    //-         p <strong>Video. </strong> Emprender Fácil. (2020). Pensamiento estratégico [vídeo]. YouTube.
+
+
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 #[span 1.3] Importancia del pensamiento estratégico
     .row.justify-content-center.mb-5
@@ -79,6 +94,29 @@
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.png', alt='')
       .col-lg-7
         p.mb-0 El pensamiento estratégico conlleva a las organizaciones, tanto a sus directivos como a sus equipos de trabajo, a desarrollar una visión a largo plazo, a evaluar posibles escenarios y a tomar decisiones basadas con la misión y visión organizacional (Chávez Martínez, 2003). Esta habilidad es también clave para fomentar la innovación, alentar la colaboración y coordinar esfuerzos para alcanzar metas comunes. Por lo tanto, la aplicación de un pensamiento estratégico, fortalece la adaptabilidad organizacional y permite responder efectivamente ante circunstancias inciertas.
+
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            //- p.d-flex.my-4
+            //-   img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+            //-   a(href="https://www.ilo.org/es/temas/administracion-e-inspeccion-del-trabajo/biblioteca-de-recursos/la-seguridad-y-salud-en-el-trabajo-guia-para-inspectores-del-trabajo-y/equipos-de-proteccion-personal" target="_blank" rel="noopener noreferrer") Organización Internacional del Trabajo. (s.f.). Equipos de protección personal. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=ahyV5boL3O" target="_blank" rel="noopener noreferrer") Emprender Fácil. (2020). Pensamiento estratégico [vídeo]. YouTube. 
+
+         
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+    
 </template>
 
 <script>

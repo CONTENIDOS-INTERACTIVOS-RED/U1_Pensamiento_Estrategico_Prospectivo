@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'2. Diferencias entre planificación tradicional y pensamiento estratégico'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bg-fondo-1 
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.bg-fondo-1 
     p.mb-4 Para poder comprender el tema “Diferencias entre planificación tradicional y pensamiento estratégico”, se hace necesario profundizar en varios aspectos importantes. 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 #[span 2.1] Diferencias conceptuales
@@ -38,7 +38,7 @@
           div(titulo="Flexibilidad")
             p.mb-0 La planificación tradicional tiende a ser rígida y detallada, lo que dificulta los ajustes. El pensamiento estratégico, es en cambio, dinámico y permite ajustes constantes, según el contexto.
           div(titulo="Orientación")
-            p.mb-0 La planificación tradicional está orientada hacia la ejecución de tareas y cumplimiento de metas específicas; el pensamiento estratégico, se enfoca en la adaptación y crecimiento sostenible
+            p.mb-0 La planificación tradicional está orientada hacia la ejecución de tareas y cumplimiento de metas específicas; el pensamiento estratégico, se enfoca en la adaptación y crecimiento sostenible.
           div(titulo="Metodología")
             p.mb-0 La planificación tradicional sigue un enfoque secuencial, mientras que el pensamiento estratégico utiliza análisis de escenarios y anticipación.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/15.svg', alt='')
@@ -124,10 +124,51 @@
             p.mb-0 #[b Apple Inc.] Apple es un ejemplo destacado de pensamiento estratégico a nivel global. La compañía ha logrado anticiparse a las tendencias tecnológicas y a las demandas del mercado, lanzando productos innovadores que redefinen categorías enteras, como el iPhone o el iPad. Apple no solo se adapta a los cambios en el mercado, sino que también crea nuevas necesidades a través de un enfoque de innovación constante y adaptación rápida, lo que le permite mantener su liderazgo en la industria tecnológica.
 
 
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-8
+    //-     .bg-color-5.mb-lg-0
+    //-       .px-4.p-md-5
 
+    //-         p.mb-4(data-aos="fade-right") Para complementar, el video “La historia de Toyota” ofrece una perspectiva de la planeación tradicional, lo que facilita su comprensión.
 
+    //-         a.anexo.mb-4.bg-white.w-fit(href="https://youtu.be/MXJJFv3hHvU?si=vcDEqy4C6FZPNQ7r" target="_blank")(data-aos="flip-up")
+    //-           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+    //-             img(src="@/assets/componentes/youtube-icon.svg")
+    //-           .anexo__texto
+    //-             p <strong>Video. </strong> Intercars YT. (2020). La historia de Toyota [video]. YouTube. 
 
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-8
+    //-     .bg-color-5.mb-lg-0
+    //-       .px-4.p-md-5
+    //-         p.mb-4(data-aos="fade-right") Para complementar, el video La historia de Apple en 4 minutos, ofrece una perspectiva del pensamiento estratégico, lo que facilita su comprensión.
 
+    //-         a.anexo.mb-4.bg-white.w-fit(href="https://youtu.be/uPX5PzTN3x4?si=pSB3ZH3NhDK5oIcY" target="_blank")(data-aos="flip-up")
+    //-           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+    //-             img(src="@/assets/componentes/youtube-icon.svg")
+    //-           .anexo__texto
+    //-             p <strong>Video. </strong> Ayala, J. (2019). La historia Apple Inc en 4 minutos [video]. YouTube. 
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/MXJJFv3hHvU?si=vcDEqy4C6FZPNQ7r" target="_blank" rel="noopener noreferrer") Intercars YT. (2020). La historia de Toyota [video]. YouTube. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/uPX5PzTN3x4?si=pSB3ZH3NhDK5oIcY" target="_blank" rel="noopener noreferrer") Ayala, J. (2019). La historia Apple Inc en 4 minutos [video]. YouTube. 
+
+         
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

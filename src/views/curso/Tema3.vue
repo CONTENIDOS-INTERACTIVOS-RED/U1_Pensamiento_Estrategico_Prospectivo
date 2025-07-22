@@ -47,7 +47,40 @@
             figure
               img(src='@/assets/curso/temas/25.png', alt='Texto que describa la imagen')
 
-    
+    //- .row.justify-content-center.my-5
+    //-   .col-lg-8
+    //-     .bg-color-5.mb-lg-0
+    //-       .px-4.p-md-5
+    //-         p.mb-4(data-aos="fade-right") Para profundizar en este tema, se recomienda la lectura del artículo: “Capacidades que contribuyen al pensamiento estratégico”.
+
+    //-         p.mb-4 Mantulak-Stachuk, M. J. & Hernández-Pérez, G. D. (2018). Capacidades que contribuyen al pensamiento estratégico: Un enfoque en la gestión tecnológica en Pymes de la madera. Ingeniería Industrial, 39(2), pp. 160-169. 
+
+    //-         a.anexo.mb-4.bg-white.w-fit(href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1815-59362018000200160&lng=es&tlng=es" target="_blank")(data-aos="flip-up")
+    //-           .anexo__icono(:style="{'background-color': '#DAE7FC'}")
+    //-             img(src="@/assets/template/icono-link.svg")
+    //-           .anexo__texto
+    //-             p <strong>Artículo. </strong> Capacidades que contribuyen al pensamiento estratégico. Un enfoque en la gestión tecnológica en PyMEs de la madera
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-link.svg' :style="{'max-width':'16px'}")
+              a(href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1815-59362018000200160&lng=es&tlng=es" target="_blank" rel="noopener noreferrer") Capacidades que contribuyen al pensamiento estratégico. Un enfoque en la gestión tecnológica en PyMEs de la madera
+
+            //- p.d-flex.my-4
+            //-   img.me-3(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+            //-   a(href="https://youtu.be/uPX5PzTN3x4?si=pSB3ZH3NhDK5oIcY" target="_blank" rel="noopener noreferrer") Ayala, J. (2019). La historia Apple Inc en 4 minutos [video]. YouTube. 
+
+         
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
@@ -64,9 +97,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>

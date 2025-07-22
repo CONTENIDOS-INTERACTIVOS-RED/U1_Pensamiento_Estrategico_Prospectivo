@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'4. Análisis de la toma de decisiones estratégicas en diferentes áreas profesionales'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5
     p.mb-4 La toma de decisiones estratégicas, es una habilidad crítica que se aplica en diversas áreas profesionales. Cada campo enfrenta sus propios desafíos y contextos, lo que requiere enfoques únicos para la toma de decisiones, en donde la planificación prospectiva juega un papel fundamental para anticipar futuros posibles y adaptarse a las circunstancias cambiantes (Bas Amorós, 2013). A continuación, se analizan cinco áreas claves: 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -111,6 +111,20 @@
               .col
                 p.mb-0 #[b Participación ciudadana en la toma de decisiones:] Incorporación activa de la población en la formulación de políticas públicas para garantizar que sean efectivas, inclusivas y sostenibles. 
       .col-lg-5.col-7: img(src='@/assets/curso/temas/30.png', alt='')
+
+
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-8
+    //-     .bg-color-5.mb-lg-0
+    //-       .px-4.p-md-5
+    //-         p.mb-4(data-aos="fade-right") Para complementar, el siguiente video explica cómo las empresas líderes toman decisiones estratégicas para mantenerse competitivas.
+
+    //-         a.anexo.mb-4.bg-white.w-fit(href="https://www.youtube.com/watch?v=tO1SVr3O25w" target="_blank")(data-aos="flip-up")
+    //-           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+    //-             img(src="@/assets/componentes/youtube-icon.svg")
+    //-           .anexo__texto
+    //-             p <strong>Video. </strong> Luque, A. (2023). Cómo tomar decisiones estratégicas en tu NEGOCIO Ep - 96 [video]. YouTube. 
+
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #F8EAE9 ")
       .row.justify-content-center.align-items-center
         .col-lg.order-2
@@ -119,14 +133,172 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/31.png', alt='')
+
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            //- p.d-flex.my-4
+            //-   img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+            //-   a(href="https://www.ilo.org/es/temas/administracion-e-inspeccion-del-trabajo/biblioteca-de-recursos/la-seguridad-y-salud-en-el-trabajo-guia-para-inspectores-del-trabajo-y/equipos-de-proteccion-personal" target="_blank" rel="noopener noreferrer") Organización Internacional del Trabajo. (s.f.). Equipos de protección personal. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=tO1SVr3O25w" target="_blank" rel="noopener noreferrer") Luque, A. (2023). Cómo tomar decisiones estratégicas en tu NEGOCIO Ep - 96 [video]. YouTube. 
+
+         
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema4',
+  name: 'Tema3',
   components: {
-    BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Gestión de la higiene y la seguridad industrial',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'El pensamiento estratégico se centra exclusivamente en alcanzar objetivos a corto plazo.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El pensamiento estratégico no se limita solo a objetivos a corto plazo.',
+            mensaje_incorrecto:
+              'Incorrecto. El pensamiento estratégico abarca tanto el corto como el largo plazo.',
+          },
+          {
+            id: 2,
+            texto:
+              'La teoría Z, desarrollada por William Ouchi, resalta la importancia de los empleados en la toma de decisiones estratégicas.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La teoría Z enfatiza la participación de los empleados.',
+            mensaje_incorrecto:
+              'Incorrecto. La teoría Z sí resalta la importancia de los empleados.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál de las siguientes opciones describe mejor el pensamiento estratégico?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Un enfoque rígido centrado en planes específicos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'La búsqueda de eficiencia operativa a corto plazo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Un proceso mental orientado a visualizar el futuro y planificar adaptativamente.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Un enfoque orientado al largo plazo que combina visión, análisis y flexibilidad.',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El pensamiento estratégico es flexible, visionario y de largo plazo.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las características del pensamiento estratégico.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Qué autor es conocido por promover la integración de empleados en la cultura organizacional mediante la teoría Z?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Frederick Taylor',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Gastón Berger',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'William Ouchi',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Bruce Henderson',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! William Ouchi es el autor de la teoría Z.',
+            mensaje_incorrecto:
+              'Incorrecto. El autor correcto es William Ouchi.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -137,7 +309,6 @@ export default {
 </script>
 
 <style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+.bg-color-actividad
+  background-color: #EBF1F5
 </style>

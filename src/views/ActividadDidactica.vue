@@ -25,7 +25,6 @@ export default {
         {
           id: 1,
           texto: '¿Cuál es la capital de Francia?',
-          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'París', esCorrecta: true },
@@ -39,7 +38,6 @@ export default {
         {
           id: 2,
           texto: '¿Cuál es el planeta más cercano al Sol?',
-          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Venus', esCorrecta: false },
@@ -53,7 +51,6 @@ export default {
         {
           id: 3,
           texto: "¿Quién escribió 'Cien años de soledad'?",
-          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Gabriel García Márquez', esCorrecta: true },
@@ -67,7 +64,6 @@ export default {
         {
           id: 4,
           texto: '¿Cuál es el elemento químico con el símbolo H?',
-          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Helio', esCorrecta: false },
@@ -81,7 +77,6 @@ export default {
         {
           id: 5,
           texto: '¿Cuál es el idioma más hablado del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Inglés', esCorrecta: false },
@@ -95,7 +90,6 @@ export default {
         {
           id: 6,
           texto: '¿En qué año llegó el hombre a la Luna?',
-          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: '1969', esCorrecta: true },
@@ -109,7 +103,6 @@ export default {
         {
           id: 7,
           texto: '¿Qué río atraviesa la ciudad de Londres?',
-          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Río Támesis', esCorrecta: true },
@@ -123,7 +116,6 @@ export default {
         {
           id: 8,
           texto: '¿Quién pintó la Mona Lisa?',
-          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Leonardo da Vinci', esCorrecta: true },
@@ -137,7 +129,6 @@ export default {
         {
           id: 9,
           texto: '¿Cuál es el océano más grande del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Océano Atlántico', esCorrecta: false },
@@ -151,7 +142,6 @@ export default {
         {
           id: 10,
           texto: '¿Qué invento se le atribuye a Alexander Graham Bell?',
-          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Teléfono', esCorrecta: true },
@@ -165,7 +155,6 @@ export default {
         {
           id: 11,
           texto: '¿Qué continente alberga la selva amazónica?',
-          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'África', esCorrecta: false },
@@ -179,7 +168,6 @@ export default {
         {
           id: 12,
           texto: '¿Cuál es el animal más rápido del mundo?',
-          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Tigre', esCorrecta: false },
@@ -194,7 +182,6 @@ export default {
           id: 13,
           texto:
             '¿Qué órgano es responsable de bombear la sangre en el cuerpo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Cerebro', esCorrecta: false },
@@ -208,7 +195,6 @@ export default {
         {
           id: 14,
           texto: "¿Quién es el autor de 'Don Quijote de la Mancha'?",
-          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Miguel de Cervantes', esCorrecta: true },
@@ -222,7 +208,6 @@ export default {
         {
           id: 15,
           texto: '¿Qué gas utilizan las plantas durante la fotosíntesis?',
-          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Oxígeno', esCorrecta: false },
@@ -236,7 +221,6 @@ export default {
         {
           id: 16,
           texto: '¿Quién fue el primer presidente de los Estados Unidos?',
-          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Thomas Jefferson', esCorrecta: false },
@@ -250,7 +234,6 @@ export default {
         {
           id: 17,
           texto: '¿Qué país tiene el mayor número de habitantes?',
-          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'India', esCorrecta: false },
@@ -264,7 +247,6 @@ export default {
         {
           id: 18,
           texto: '¿Qué es el fenómeno de la refracción?',
-          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'La dispersión de la luz', esCorrecta: false },
@@ -282,7 +264,6 @@ export default {
         {
           id: 19,
           texto: '¿Cuál es el símbolo químico del oro?',
-          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Ag', esCorrecta: false },
@@ -296,7 +277,6 @@ export default {
         {
           id: 20,
           texto: '¿En qué año comenzó la Segunda Guerra Mundial?',
-          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: '1914', esCorrecta: false },
