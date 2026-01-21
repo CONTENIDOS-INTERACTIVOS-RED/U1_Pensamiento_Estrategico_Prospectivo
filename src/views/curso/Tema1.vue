@@ -103,13 +103,13 @@
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
-            //- p.d-flex.my-4
-            //-   img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-            //-   a(href="https://www.ilo.org/es/temas/administracion-e-inspeccion-del-trabajo/biblioteca-de-recursos/la-seguridad-y-salud-en-el-trabajo-guia-para-inspectores-del-trabajo-y/equipos-de-proteccion-personal" target="_blank" rel="noopener noreferrer") Organización Internacional del Trabajo. (s.f.). Equipos de protección personal. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.redalyc.org/articulo.oa?id=105316833003" target="_blank" rel="noopener noreferrer") Román Muñoz, O. (2010). El pensamiento estratégico. Una integración de los sentidos con la razón. Revista Guillermo de Ockham, 8(2), 23–36.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=ahyV5boL3O" target="_blank" rel="noopener noreferrer") Emprender Fácil. (2020). Pensamiento estratégico [vídeo]. YouTube. 
+              a(href="https://www.youtube.com/watch?v=DxBIk6aBjbQ" target="_blank" rel="noopener noreferrer") Inteligencia Empresarial Academy. (2023, aproximado). Strategic thinking: Free course with examples, cases, and strategies [Video]. YouTube. 
 
          
 
